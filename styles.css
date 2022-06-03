@@ -1,0 +1,33 @@
+.winners {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.winner {
+  display: flex;
+  width: 15%;
+  height: 15%;
+  flex-direction: column;
+  border: 1px black solid;
+}
+
+.header {
+  text-align: center;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h2 h3 {
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+
+  left: 50%;
+  transform: translateX(-50%);
+}
